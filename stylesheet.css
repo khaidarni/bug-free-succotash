@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+SA+Beginner:wght@500&family=Indie+Flower&family=Merienda:wght@600&family=Poppins:wght@100&family=Signika+Negative:wght@500&family=Ysabeau+Office:ital,wght@1,600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Ysabeau Office', sans-serif;
+}
+
+.header-logo img{
+    height: 100px;
+    width: 100px;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color:rgb(183, 209, 233);
+    color: rgb(3, 3, 54);
+    position: fixed;
+    top:0;
+}
+
+.header-logo{
+    float: left;
+    padding: 10ppx 20x;
+}
+
+.header-right{
+    float:right;
+}
+
+.header-right a{
+background-color: rgba(240, 248, 255, 0.435);
+color: rgb(2, 2, 47);
+line-height: 80px;
+display: block;
+padding:0 20px;
+float: left;
+}
+
+.header-right a:hover{
+    background-color: rgba(240, 248, 255, 0.193);
+}
+a{
+    text-decoration: none;
+}
+
+.top-wrapper{
+    background-image: url(file:///C:/Users/ACER/Desktop/html/latihan%201/image/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg);
+    height: 900px;
+    background-size: cover;
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+    padding-top: 150px;
+    color: aliceblue;
+    font-size: 30px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    padding-bottom: 50px;
+    width:100%;
+}
+
+.btn-wrapper p{
+    color: aliceblue;
+    opacity: 0.8;
+}
+.btn-wrapper{
+    text-align: center;
+    width:100%;
+    margin:auto;
+
+   }
+   
+
+.btn{
+    color:aliceblue;
+    margin: 10px 20px;
+    opacity: 0.6;
+    display: inline-block;
+    
+}
+
+.btn:hover{
+    opacity:1;
+}
+
+.signup{
+    background-color: rgb(12, 74, 28);
+    padding:10px 40px ;
+    border-radius: 40px;
+}
+.facebook{
+    background-color: rgb(27, 27, 128);
+    padding: 10px 40px;
+    margin-right:10px;
+    border-radius: 40px;
+}
+
+.twitter{
+    background-color: rgb(29, 136, 136);
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+.fa-brands{
+    padding-right: 20px;
+}
+
+.fa-solid{
+    padding-right: 20px;
+}
+
+.content{
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.contents-item{
+    margin-top: 100px;
+}
+
+.content-icon img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.content-icon{
+   width: 25%;
+    float: left;
+   opacity: 0.8;
+    display: flexbox;
+    }
+.clear{
+    clear:left;
+}
+.content-icon p{
+    position:static;
+    top:90px;
+    font-size: 20px;  
+}
+
+.txt-content{
+    width: 70%;
+    padding-top: 20px;
+    margin: 0 40px;
+    
+}
+
+.message-wrapper{
+    height:500px;
+    text-align: center;
+}
+
+
+.heading-message h1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.btn-message{
+    
+    background-color: rgb(12, 12, 101);
+    color:white;
+    padding: 20px 25px;
+    cursor: pointer;
+    box-shadow: 0 8px rgb(6, 4, 53);
+    border-radius: 40px;
+}
+
+.btn-message:active{
+    position: relative;
+    box-shadow: none;
+    border-radius: 40px;
+}
+
+footer{
+    height:80px;
+    background-color: rgb(183, 209, 233);
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left{
+    float: left;
+    padding-top : 15px 30px;
+  
+}
+
+.footer-right{
+    float: right;
+    font-size: 50px;
+    padding:10px;
+    
+}
