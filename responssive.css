@@ -1,0 +1,29 @@
+@media(max-width:1000px){
+    .content-icon{
+        width:50%;
+        margin-bottom: 50px;
+        }
+    .btn-wrapper{
+        width:70%;
+        margin-bottom: 90px;
+    }
+    
+
+}
+
+@media(max-with:670px){
+    .content-icon{
+        width:100%;
+    }
+    
+    .btn{
+        width: 100%;
+    }
+
+    .facebook{
+        margin-bottom: 10px;
+    }
+   .top-wrapper{
+    text-align: left;
+   }
+}
